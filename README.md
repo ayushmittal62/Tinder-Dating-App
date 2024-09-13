@@ -1,3 +1,40 @@
+# Tinder Clone - Backend with Next.js
+
+This project is a Tinder-like application focused on backend functionality. It is built using Next.js, with Shadcn for UI components, Kinde for user authentication, and Neo4j as the database for handling relationships between users.
+
+## Features
+
+- **User Authentication**: Secure user login and signup using Kinde.
+- **User Profiles**: Backend handling for user profiles, including details like name, age, preferences, etc.
+- **Matching Algorithm**: Backend logic to match users based on preferences and interactions, powered by Neo4j.
+- **Real-time Messaging**: Handles real-time messaging between matched users.
+- **UI Components**: Built with Shadcn for clean and accessible user interfaces.
+  
+## Tech Stack
+
+- **Next.js**: React framework for building server-side rendered and statically generated web applications.
+- **Shadcn**: For UI components and styling.
+- **Kinde**: User authentication and management.
+- **Neo4j**: Graph database used for storing user profiles and relationships.
+  
+## Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v14 or above)
+- Neo4j (local or cloud instance)
+- Kinde account for authentication
+
+### Installing Required Packages
+
+Install dependencies using npm or yarn:
+
+```bash
+npm install
+# or
+yarn install
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
